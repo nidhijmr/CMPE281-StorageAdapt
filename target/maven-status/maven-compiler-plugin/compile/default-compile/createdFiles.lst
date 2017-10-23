@@ -1,0 +1,15 @@
+edu/sjsu/cloudProject/service/S3DetailServiceImpl.class
+edu/sjsu/cloudProject/controller/UserController.class
+edu/sjsu/cloudProject/dao/S3DetailDAOImpl.class
+edu/sjsu/cloudProject/controller/S3Controller.class
+edu/sjsu/cloudProject/model/User.class
+edu/sjsu/cloudProject/service/UserServiceImpl.class
+edu/sjsu/cloudProject/util/AWSUtils.class
+edu/sjsu/cloudProject/controller/BaseController.class
+edu/sjsu/cloudProject/dao/UserDAOImpl.class
+edu/sjsu/cloudProject/dao/UserDAO.class
+edu/sjsu/cloudProject/dao/S3DetailDAO.class
+edu/sjsu/cloudProject/model/S3Detail.class
+edu/sjsu/cloudProject/service/S3DetailService.class
+edu/sjsu/cloudProject/service/UserService.class
+edu/sjsu/cloudProject/util/AWSUtils$1.class
