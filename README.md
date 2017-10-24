@@ -1,6 +1,6 @@
 # CMPE 281: cloudProject-1 StorageAdapt
 *	University Name: http://www.sjsu.edu/ 
-*	Course: Cloud Technologies
+*	Course: [Cloud Technologies](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE281.html)
 *	Professor: [Sanjay Garje](https://www.linkedin.com/in/sanjaygarje/)
 *	ISA: [Divyankitha Urs](https://www.linkedin.com/in/divyankithaurs/)
 *	Student: [Nidhi Jamar](https://www.linkedin.com/in/nidhi-jamar-9bb450bb/)
