@@ -1,7 +1,7 @@
 # CMPE 281: cloudProject-1 StorageAdapt
 *	University Name: http://www.sjsu.edu/ 
 *	Course: Cloud Technologies
-*	Professor Sanjay Garje 
+*	Professor: Sanjay Garje 
 *	ISA: Divyankitha Urs
 *	Student: Nidhi Jamar https://www.linkedin.com/in/nidhi-jamar-9bb450bb/
 
