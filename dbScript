@@ -1,0 +1,18 @@
+Create table user(userid int NOT NULL AUTO_INCREMENT,
+username VARCHAR(20) UNIQUE NOT NULL,
+password  VARCHAR(10) NOT NULL,
+firstname  VARCHAR(100) NOT NULL,
+lastname VARCHAR(100) DEFAULT '',
+emailid VARCHAR(100) DEFAULT '',
+PRIMARY KEY (userid)
+);
+
+Create table s3detail(id int NOT NULL AUTO_INCREMENT,
+userid int ,
+uploadtime  TIMESTAMP,
+updatetime  TIMESTAMP,
+description VARCHAR(200) DEFAULT '',
+keyname VARCHAR(200) NOT NULL,
+PRIMARY KEY (id),
+FOREIGN KEY (userid) REFERENCES user(userid)
+);
