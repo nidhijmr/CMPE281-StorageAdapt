@@ -11,7 +11,7 @@ The application is the integrated solution for users to allow secure file acces
 
 ![dashboard](https://user-images.githubusercontent.com/32632834/31925637-f8c49bd0-b83e-11e7-8ead-5087190a111b.png)
 
-* ###Features of the application
+* ### Features of the application
 -----------------------------------------
 * Register an account
 ![signup](https://user-images.githubusercontent.com/32632834/31925817-f9177e62-b83f-11e7-8f81-8902dfa108df.png)
