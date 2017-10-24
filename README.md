@@ -5,12 +5,12 @@
 *	ISA: Divyankitha Urs
 *	Student: Nidhi Jamar https://www.linkedin.com/in/nidhi-jamar-9bb450bb/
 
-*	### Project Introduction
+### Project Introduction
 The application is the integrated solution for users to allow secure file access and storage from anywhere, with any       device. Users can create an account, sign in, upload new files, update existing ones, delete and download them.
 
 ![dashboard](https://user-images.githubusercontent.com/32632834/31925637-f8c49bd0-b83e-11e7-8ead-5087190a111b.png)
 
-* ### Features of the application
+### Features of the application
 * Register an account
 ![signup](https://user-images.githubusercontent.com/32632834/31925817-f9177e62-b83f-11e7-8f81-8902dfa108df.png)
 
@@ -33,7 +33,7 @@ The application is the integrated solution for users to allow secure file acces
 ![archdiagram](https://user-images.githubusercontent.com/32632834/31925984-d93cb386-b840-11e7-8475-480e30309895.png)
 
 
-* ### PreRequisites
+### PreRequisites
 * ### AWS Components to be setup
 * EC2: The EC2 instance will be created and the .war file of the project will be deployed in the webapps folder of the Tomcat server. Further, AMI of this instance will be created which will be used in the launch configuration of the AutoScaling group.
 * S3: This will be used to store the user's uploaded files. A base bucket will be created and inside it the files will be uploaded agaianst each user. The storage of this bucket will be Standard S3.
@@ -49,10 +49,10 @@ The application is the integrated solution for users to allow secure file acces
 * Lambda: On the termination/Launch of new EC2 instances, it invoked the Lambda function (created in python) which further invoked SNS Topic to send notifcation emails.
 * SNS: Configured to send email to subscribers of the topic created in it.
 
-* ### Configuration on Local Machine
+### Configuration on Local Machine
 * Softwares required to be setup : Maven project, Java 1.8, Apache Tomcat 8.5, Eclipse IDE, Db Visualizer
 
-* ### Run project locally
+### Run project locally
 * Download the code from this repository.
 * Import it into the Eclipse as Maven Project.
 * Create an IAM user in the AWS console and assign it the administrator access.
