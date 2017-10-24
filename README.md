@@ -50,9 +50,10 @@ The application is the integrated solution for users to allow secure file acces
 * SNS: Configured to send email to subscribers of the topic created in it.
 
 ### Configuration on Local Machine
-* Softwares required to be setup : Maven project, Java 1.8, Apache Tomcat 8.5, Eclipse IDE, Db Visualizer
+* Softwares required to be setup : Maven project, Java 1.8, Apache Tomcat 8.5, Eclipse IDE, DbVisualizer
 
 ### Run project locally
+* Run the scripts from dbScript file in DbVisualizer to create the tables.
 * Download the code from this repository.
 * Import it into the Eclipse as Maven Project.
 * Create an IAM user in the AWS console and assign it the administrator access.
