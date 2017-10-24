@@ -6,13 +6,11 @@
 *	Student: Nidhi Jamar https://www.linkedin.com/in/nidhi-jamar-9bb450bb/
 
 *	### Project Introduction
--------------------------------------------------------
 The application is the integrated solution for users to allow secure file access and storage from anywhere, with any       device. Users can create an account, sign in, upload new files, update existing ones, delete and download them.
 
 ![dashboard](https://user-images.githubusercontent.com/32632834/31925637-f8c49bd0-b83e-11e7-8ead-5087190a111b.png)
 
 * ### Features of the application
------------------------------------------
 * Register an account
 ![signup](https://user-images.githubusercontent.com/32632834/31925817-f9177e62-b83f-11e7-8f81-8902dfa108df.png)
 
@@ -36,8 +34,6 @@ The application is the integrated solution for users to allow secure file acces
 
 
 * ### PreRequisites
----------------------------------------------
-
 * # AWS Components to be setup
 * EC2: The EC2 instance will be created and the .war file of the project will be deployed in the webapps folder of the Tomcat server. Further, AMI of this instance will be created which will be used in the launch configuration of the AutoScaling group.
 * S3: This will be used to store the user's uploaded files. A base bucket will be created and inside it the files will be uploaded agaianst each user. The storage of this bucket will be Standard S3.
